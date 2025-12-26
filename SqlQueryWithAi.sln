@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlQueryWithAi.WebApi", "SqlQueryWithAi.WebApi\SqlQueryWithAi.WebApi.csproj", "{F312BC1B-DBC3-41CB-9B03-C2043D3513CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlQueryWithAi.Client", "SqlQueryWithAi.Client\SqlQueryWithAi.Client.csproj", "{688AB578-D5A6-469D-8D39-5AA9260ACF19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F312BC1B-DBC3-41CB-9B03-C2043D3513CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F312BC1B-DBC3-41CB-9B03-C2043D3513CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F312BC1B-DBC3-41CB-9B03-C2043D3513CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F312BC1B-DBC3-41CB-9B03-C2043D3513CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688AB578-D5A6-469D-8D39-5AA9260ACF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688AB578-D5A6-469D-8D39-5AA9260ACF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688AB578-D5A6-469D-8D39-5AA9260ACF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688AB578-D5A6-469D-8D39-5AA9260ACF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

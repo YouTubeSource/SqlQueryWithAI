@@ -1,0 +1,9 @@
+az login
+
+az group create --name rg-ai-demo --location swedencentral
+
+az deployment group create --resource-group rg-ai-demo --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+
+az deployment group show --resource-group rg-ai-demo --name azuredeploy --query properties.outputs
+
+az cognitiveservices account keys list --resource-group rg-ai-demo --name myopenai-uniquename123
